@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D98964023603EB6002368E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98963F23603EB6002368E2 /* AppDelegate.swift */; };
+		9D98964223603EB6002368E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98964123603EB6002368E2 /* SceneDelegate.swift */; };
+		9D98964423603EB6002368E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98964323603EB6002368E2 /* ViewController.swift */; };
+		9D98964723603EB6002368E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D98964523603EB6002368E2 /* Main.storyboard */; };
+		9D98964923603EB8002368E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D98964823603EB8002368E2 /* Assets.xcassets */; };
+		9D98964C23603EB8002368E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D98964A23603EB8002368E2 /* LaunchScreen.storyboard */; };
+		9D98965723603EB8002368E2 /* mp_GiocoDel15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98965623603EB8002368E2 /* mp_GiocoDel15Tests.swift */; };
+		9D98966223603EB8002368E2 /* mp_GiocoDel15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98966123603EB8002368E2 /* mp_GiocoDel15UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D98965323603EB8002368E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D98963423603EB6002368E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D98963B23603EB6002368E2;
+			remoteInfo = "mp-GiocoDel15";
+		};
+		9D98965E23603EB8002368E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D98963423603EB6002368E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D98963B23603EB6002368E2;
+			remoteInfo = "mp-GiocoDel15";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D98963C23603EB6002368E2 /* mp-GiocoDel15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mp-GiocoDel15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D98963F23603EB6002368E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D98964123603EB6002368E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D98964323603EB6002368E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D98964623603EB6002368E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D98964823603EB8002368E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D98964B23603EB8002368E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D98964D23603EB8002368E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D98965223603EB8002368E2 /* mp-GiocoDel15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mp-GiocoDel15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D98965623603EB8002368E2 /* mp_GiocoDel15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mp_GiocoDel15Tests.swift; sourceTree = "<group>"; };
+		9D98965823603EB8002368E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D98965D23603EB8002368E2 /* mp-GiocoDel15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mp-GiocoDel15UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D98966123603EB8002368E2 /* mp_GiocoDel15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mp_GiocoDel15UITests.swift; sourceTree = "<group>"; };
+		9D98966323603EB8002368E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D98963923603EB6002368E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D98964F23603EB8002368E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D98965A23603EB8002368E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D98963323603EB6002368E2 = {
+			isa = PBXGroup;
+			children = (
+				9D98963E23603EB6002368E2 /* mp-GiocoDel15 */,
+				9D98965523603EB8002368E2 /* mp-GiocoDel15Tests */,
+				9D98966023603EB8002368E2 /* mp-GiocoDel15UITests */,
+				9D98963D23603EB6002368E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D98963D23603EB6002368E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D98963C23603EB6002368E2 /* mp-GiocoDel15.app */,
+				9D98965223603EB8002368E2 /* mp-GiocoDel15Tests.xctest */,
+				9D98965D23603EB8002368E2 /* mp-GiocoDel15UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D98963E23603EB6002368E2 /* mp-GiocoDel15 */ = {
+			isa = PBXGroup;
+			children = (
+				9D98963F23603EB6002368E2 /* AppDelegate.swift */,
+				9D98964123603EB6002368E2 /* SceneDelegate.swift */,
+				9D98964323603EB6002368E2 /* ViewController.swift */,
+				9D98964523603EB6002368E2 /* Main.storyboard */,
+				9D98964823603EB8002368E2 /* Assets.xcassets */,
+				9D98964A23603EB8002368E2 /* LaunchScreen.storyboard */,
+				9D98964D23603EB8002368E2 /* Info.plist */,
+			);
+			path = "mp-GiocoDel15";
+			sourceTree = "<group>";
+		};
+		9D98965523603EB8002368E2 /* mp-GiocoDel15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D98965623603EB8002368E2 /* mp_GiocoDel15Tests.swift */,
+				9D98965823603EB8002368E2 /* Info.plist */,
+			);
+			path = "mp-GiocoDel15Tests";
+			sourceTree = "<group>";
+		};
+		9D98966023603EB8002368E2 /* mp-GiocoDel15UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D98966123603EB8002368E2 /* mp_GiocoDel15UITests.swift */,
+				9D98966323603EB8002368E2 /* Info.plist */,
+			);
+			path = "mp-GiocoDel15UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D98963B23603EB6002368E2 /* mp-GiocoDel15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D98966623603EB8002368E2 /* Build configuration list for PBXNativeTarget "mp-GiocoDel15" */;
+			buildPhases = (
+				9D98963823603EB6002368E2 /* Sources */,
+				9D98963923603EB6002368E2 /* Frameworks */,
+				9D98963A23603EB6002368E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mp-GiocoDel15";
+			productName = "mp-GiocoDel15";
+			productReference = 9D98963C23603EB6002368E2 /* mp-GiocoDel15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D98965123603EB8002368E2 /* mp-GiocoDel15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D98966923603EB8002368E2 /* Build configuration list for PBXNativeTarget "mp-GiocoDel15Tests" */;
+			buildPhases = (
+				9D98964E23603EB8002368E2 /* Sources */,
+				9D98964F23603EB8002368E2 /* Frameworks */,
+				9D98965023603EB8002368E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D98965423603EB8002368E2 /* PBXTargetDependency */,
+			);
+			name = "mp-GiocoDel15Tests";
+			productName = "mp-GiocoDel15Tests";
+			productReference = 9D98965223603EB8002368E2 /* mp-GiocoDel15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D98965C23603EB8002368E2 /* mp-GiocoDel15UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D98966C23603EB8002368E2 /* Build configuration list for PBXNativeTarget "mp-GiocoDel15UITests" */;
+			buildPhases = (
+				9D98965923603EB8002368E2 /* Sources */,
+				9D98965A23603EB8002368E2 /* Frameworks */,
+				9D98965B23603EB8002368E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D98965F23603EB8002368E2 /* PBXTargetDependency */,
+			);
+			name = "mp-GiocoDel15UITests";
+			productName = "mp-GiocoDel15UITests";
+			productReference = 9D98965D23603EB8002368E2 /* mp-GiocoDel15UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D98963423603EB6002368E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "PATRICK MARTINI";
+				TargetAttributes = {
+					9D98963B23603EB6002368E2 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					9D98965123603EB8002368E2 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9D98963B23603EB6002368E2;
+					};
+					9D98965C23603EB8002368E2 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9D98963B23603EB6002368E2;
+					};
+				};
+			};
+			buildConfigurationList = 9D98963723603EB6002368E2 /* Build configuration list for PBXProject "mp-GiocoDel15" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D98963323603EB6002368E2;
+			productRefGroup = 9D98963D23603EB6002368E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D98963B23603EB6002368E2 /* mp-GiocoDel15 */,
+				9D98965123603EB8002368E2 /* mp-GiocoDel15Tests */,
+				9D98965C23603EB8002368E2 /* mp-GiocoDel15UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D98963A23603EB6002368E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D98964C23603EB8002368E2 /* LaunchScreen.storyboard in Resources */,
+				9D98964923603EB8002368E2 /* Assets.xcassets in Resources */,
+				9D98964723603EB6002368E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D98965023603EB8002368E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D98965B23603EB8002368E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D98963823603EB6002368E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D98964423603EB6002368E2 /* ViewController.swift in Sources */,
+				9D98964023603EB6002368E2 /* AppDelegate.swift in Sources */,
+				9D98964223603EB6002368E2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D98964E23603EB8002368E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D98965723603EB8002368E2 /* mp_GiocoDel15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D98965923603EB8002368E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D98966223603EB8002368E2 /* mp_GiocoDel15UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D98965423603EB8002368E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D98963B23603EB6002368E2 /* mp-GiocoDel15 */;
+			targetProxy = 9D98965323603EB8002368E2 /* PBXContainerItemProxy */;
+		};
+		9D98965F23603EB8002368E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D98963B23603EB6002368E2 /* mp-GiocoDel15 */;
+			targetProxy = 9D98965E23603EB8002368E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D98964523603EB6002368E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D98964623603EB6002368E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D98964A23603EB8002368E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D98964B23603EB8002368E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D98966423603EB8002368E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D98966523603EB8002368E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D98966723603EB8002368E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mp-GiocoDel15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-patrickmartini.mp-GiocoDel15";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D98966823603EB8002368E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mp-GiocoDel15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-patrickmartini.mp-GiocoDel15";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D98966A23603EB8002368E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mp-GiocoDel15Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-patrickmartini.mp-GiocoDel15Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mp-GiocoDel15.app/mp-GiocoDel15";
+			};
+			name = Debug;
+		};
+		9D98966B23603EB8002368E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mp-GiocoDel15Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-patrickmartini.mp-GiocoDel15Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mp-GiocoDel15.app/mp-GiocoDel15";
+			};
+			name = Release;
+		};
+		9D98966D23603EB8002368E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mp-GiocoDel15UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-patrickmartini.mp-GiocoDel15UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mp-GiocoDel15";
+			};
+			name = Debug;
+		};
+		9D98966E23603EB8002368E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mp-GiocoDel15UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-patrickmartini.mp-GiocoDel15UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mp-GiocoDel15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D98963723603EB6002368E2 /* Build configuration list for PBXProject "mp-GiocoDel15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D98966423603EB8002368E2 /* Debug */,
+				9D98966523603EB8002368E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D98966623603EB8002368E2 /* Build configuration list for PBXNativeTarget "mp-GiocoDel15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D98966723603EB8002368E2 /* Debug */,
+				9D98966823603EB8002368E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D98966923603EB8002368E2 /* Build configuration list for PBXNativeTarget "mp-GiocoDel15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D98966A23603EB8002368E2 /* Debug */,
+				9D98966B23603EB8002368E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D98966C23603EB8002368E2 /* Build configuration list for PBXNativeTarget "mp-GiocoDel15UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D98966D23603EB8002368E2 /* Debug */,
+				9D98966E23603EB8002368E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D98963423603EB6002368E2 /* Project object */;
+}
