@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var txtMos: UITextField!
     @IBOutlet weak var btn1: UIButton!
     @IBOutlet weak var btn2: UIButton!
     @IBOutlet weak var btn3: UIButton!
@@ -32,8 +33,8 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var arr : [Int] = []
-        let arrNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+        var arrMobile = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
+        let arrFisso = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
     }
     
     func lock()
@@ -74,10 +75,20 @@ class ViewController: UIViewController {
         btn15.isUserInteractionEnabled = true
     }
     
-    func Gioco15()
+    func Inzio()
     {
-        //Tasi Patrick
+        var gen = Int.random(in: 0 ..< 3)
+        //arrMobile.indexOf
+        
+        if (gen == 0)
+        {
+            //arrMobile.swapAt(
+        }
     }
+    //se è -1 va indietro == esce 0
+    //se è +1 va avanti == esce 1
+    //se è +4 scende == esce 2
+    //se è -4 va sopra == esce 3
     
 }
 

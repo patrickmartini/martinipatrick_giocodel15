@@ -190,6 +190,7 @@
                         <outlet property="btn8" destination="86I-EJ-hBx" id="Niw-Ig-0i8"/>
                         <outlet property="btn9" destination="1Pj-eO-7Ds" id="gxl-G2-32e"/>
                         <outlet property="btnSposto" destination="a4w-5M-kHy" id="WBB-dE-GKG"/>
+                        <outlet property="txtMos" destination="ulp-1D-Akd" id="SQJ-uY-r3o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
