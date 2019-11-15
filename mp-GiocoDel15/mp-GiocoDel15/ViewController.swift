@@ -33,9 +33,11 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var arrMobile = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
-        let arrFisso = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
+
     }
+    
+    var arrMobile = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
+    let arrFisso = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
     
     func lock()
     {
@@ -73,22 +75,48 @@ class ViewController: UIViewController {
         btn13.isUserInteractionEnabled = true
         btn14.isUserInteractionEnabled = true
         btn15.isUserInteractionEnabled = true
+        
+
     }
+    
+    var gen = Int.random(in: 1 ..< 4)
+    //arrMobile.indexOf
+    var a = arrMobile.index(of: 0)
     
     func Inzio()
     {
-        var gen = Int.random(in: 0 ..< 3)
-        //arrMobile.indexOf
+
         
-        if (gen == 0)
+        if (gen == 1)
         {
-            //arrMobile.swapAt(
+            arrMobile.swapAt(a! , a! - 1)
         }
+        
+        if (gen == 2)
+        {
+            arrMobile.swapAt(a! , a! + 1)
+        }
+        
+        if (gen == 3)
+        {
+            arrMobile.swapAt(a! , a! - 4)
+        }
+        
+        if (gen == 4)
+        {
+            arrMobile.swapAt(a! , a! + 4)
+        }
+        
     }
     //se è -1 va indietro == esce 0
     //se è +1 va avanti == esce 1
     //se è +4 scende == esce 2
     //se è -4 va sopra == esce 3
+    
+    func controllo()
+    {
+        //controllo se va furoi dal ciclo
+    }
     
 }
 
