@@ -36,8 +36,9 @@ class ViewController: UIViewController {
 
     }
     
-    var arrMobile = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
+    var arrMobile : [Int] = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
     let arrFisso = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]
+    let arrRandom : [Int] = [1,-1,4,-4]
     
     func lock()
     {
@@ -79,44 +80,30 @@ class ViewController: UIViewController {
 
     }
     
-    var gen = Int.random(in: 1 ..< 4)
-    //arrMobile.indexOf
-    var a = arrMobile.index(of: 0)
-    
-    func Inzio()
+    func gioco()
     {
-
-        
-        if (gen == 1)
+        var tent = 5 //varia in base all'utente quanti tentativi vuole
+        //var a = arrMobile.index(of: 0)
+        //let a = Int.random(in: 0..<3)
+        //se è 1 va indietro == esce 0
+        //se è -1 va avanti == esce 1
+        //se è 4 scende == esce 2
+        //se è -4 va sopra == esce 3
+        let b = arrRandom.randomElement()
+        let x = arrMobile.firstIndex(of: 0)
+        let y = x! + b!
+            
+        for _ in 1 ... tent
         {
-            arrMobile.swapAt(a! , a! - 1)
+            if(x! < 0 && x! > 15)
+            {
+                arrMobile.swapAt(x!, y)
+            }
+            else
+            {
+                tent = tent - 1
+            }
         }
-        
-        if (gen == 2)
-        {
-            arrMobile.swapAt(a! , a! + 1)
-        }
-        
-        if (gen == 3)
-        {
-            arrMobile.swapAt(a! , a! - 4)
-        }
-        
-        if (gen == 4)
-        {
-            arrMobile.swapAt(a! , a! + 4)
-        }
-        
     }
-    //se è -1 va indietro == esce 0
-    //se è +1 va avanti == esce 1
-    //se è +4 scende == esce 2
-    //se è -4 va sopra == esce 3
-    
-    func controllo()
-    {
-        //controllo se va furoi dal ciclo
-    }
-    
 }
 
